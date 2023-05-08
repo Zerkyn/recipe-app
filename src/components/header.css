@@ -1,0 +1,33 @@
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #d3804a;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin-left: 80px;
+}
+
+nav {
+    width: 180px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button {
+    border: none;
+    background-color: #d3804a;
+    color: white;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background-color: #f0a040;
+    box-shadow: 0px 0px 5px 5px #f0a040;
+    border-radius: 10px;
+}
