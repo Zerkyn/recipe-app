@@ -10,6 +10,7 @@ header {
 
 header h2 {
     margin-left: 80px;
+    font-size: 20px;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav button {
     border: none;
     background-color: #d3804a;
     color: white;
+    font-size: 18px;
 }
 
 nav button:hover {

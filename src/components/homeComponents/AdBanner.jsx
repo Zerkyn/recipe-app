@@ -1,6 +1,7 @@
 import React from "react";
 import salmon from "../../assets/salmon.jpg";
 import { Link } from "react-router-dom";
+import './HomeScreen.css'
 
 const AdBanner = () => {
   return (
@@ -12,9 +13,10 @@ const AdBanner = () => {
           rgba(0, 0, 0, 0.8)),
           url(${salmon})`,
         backgroundSize: "cover",
+        height: '500px',
       }}
     >
-      <div>
+      <div className="ad-container">
         <h3>New Recipe</h3>
         <h1>Pineapple Salmon</h1>
         <h3>

@@ -96,3 +96,16 @@ video {
 #568a88 
 #e5dad0
 */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blue-btn {
+	background-color: #568a88;
+	color: white;
+	width: 110px;
+	height: 40px;
+	border: none;
+	font-size: medium;
+}
