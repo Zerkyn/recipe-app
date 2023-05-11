@@ -1,5 +1,6 @@
 import React from "react";
 import './RecipeCard.css'
+import { Link } from 'react-router-dom'
 
 const RecipeCard = props => {
     const { recipe } = props
@@ -12,7 +13,9 @@ const RecipeCard = props => {
                 backgroundPosition: 'center'
             }} alt={recipe.recipe_name} />
             <h3>{recipe.recipe_name}</h3>
-            <button className="blue-btn">See More</button>
+            <Link to={`/recipe/${recipe.recipe_id}`}>
+                <button className="blue-btn">See More</button>
+            </Link>
         </div>
     )
 }

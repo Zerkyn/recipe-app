@@ -1,0 +1,29 @@
+.recipe-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recipe-info-and-ingredients {
+    box-shadow: 0px 3px 5px 1px #afafaf;
+    border-radius: 3px;
+    width: 300px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article {
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 5px 1px #afafaf;
+}
