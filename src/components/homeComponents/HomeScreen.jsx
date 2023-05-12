@@ -29,13 +29,14 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
-      {/* Much code from Part 2 will be placed around here. Do your best! */}
       <div className='recipe-main'>
         <span>
           <ImSearch color='#d3804a' size="2em" />
           <input placeholder='Search for a recipe' onChange={e => setSearch(e.target.value)}></input>
         </span>
-        {recipeDisplay}
+        <div className='recipe-cards'>
+          {recipeDisplay}
+        </div>
       </div>
     </div>
   )

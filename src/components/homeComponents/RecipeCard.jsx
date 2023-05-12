@@ -1,9 +1,14 @@
 import React from "react";
 import './RecipeCard.css'
-import { Link } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 const RecipeCard = props => {
     const { recipe } = props
+    const navigate = useNavigate()
+
+    const handleClick = () => {
+        navigate(`recipe/${recipe.recipe_id}`)
+    }
 
     return (
         <div className="recipe-card">
@@ -13,9 +18,7 @@ const RecipeCard = props => {
                 backgroundPosition: 'center'
             }} alt={recipe.recipe_name} />
             <h3>{recipe.recipe_name}</h3>
-            <Link to={`/recipe/${recipe.recipe_id}`}>
-                <button className="blue-btn">See More</button>
-            </Link>
+            <button className="blue-btn" onClick={() => { handleClick() }}>See More</button>
         </div>
     )
 }

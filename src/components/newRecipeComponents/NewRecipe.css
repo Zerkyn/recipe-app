@@ -1,0 +1,67 @@
+.add-recipe {
+    text-align: center;
+}
+
+.add-recipe h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.add-recipe-input {
+    height: 30px;
+}
+
+.name-image-inputs {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.radios {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.prep-cook-serves-inputs {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-ingredients {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredient-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient-inputs input {
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

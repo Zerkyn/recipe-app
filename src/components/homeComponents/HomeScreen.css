@@ -48,3 +48,10 @@
     font-size: 19px;
     outline: none;
 }
+
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: none;
+}

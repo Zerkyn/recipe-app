@@ -1,6 +1,5 @@
 .recipe-card {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 10px 30px 10px;
     width: 300px;
     height: 470px;
     text-align: center;
@@ -8,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border: solid 1px black;
+    box-shadow: 0px 3px 5px 1px #afafaf;
     border-radius: 3px;
     overflow: hidden;
 }
